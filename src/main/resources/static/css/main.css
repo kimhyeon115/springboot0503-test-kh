@@ -1,0 +1,235 @@
+@charset "UTF-8";
+
+html {
+    font-family: 'notokr-regular', sans-serif;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+	line-height: 1;
+    display: block;
+    margin: 8px;
+}
+
+section.carSection {
+    margin-top: 60px;
+}
+
+.l-ct {
+    display: block;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+section.carSection > h2.carTitle {
+    color: #404040;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+section.carSection > h2.carTitle > span.point {
+    color: #ec2a1c;
+    display: inline-block;
+}
+
+section.carSection ul.carList {
+    margin-top: 60px;
+}
+
+
+section.carSection ul.carList > li:not(:nth-child(3n)) {
+    margin-right: 28px;
+}
+
+section.carSection ul.carList > li {
+    display: inline-block;
+    vertical-align: top;
+    width: 378px;
+    height: 468px;
+    border: 1px solid #dee6ec;
+    margin-bottom: 25px;
+}
+
+a:link, a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+section.carSection ul.carList > li figure.list-thumb {
+    display: block;
+    width: 100%;
+    height: 240px;
+}
+
+section.carSection ul.carList > li figcaption.list-contents {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 24px;
+}
+
+section.carSection ul.carList > li figcaption.list-contents p.listTitle {
+    color: #404040;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'nanum-square-r';
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+
+section.carSection ul.carList > li figcaption.list-contents p.listLabel {
+    color: #ec2a1c;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'nanum-square-r';
+    line-height: 42px;
+}
+
+section.carSection ul.carList > li figcaption.list-contents p.listLink {
+    width: 172px;
+    height: 45px;
+    line-height: 45px;
+    background-color: #ec2a1c;
+    color: #fff;
+    font-size: 18px;
+    margin: 40px auto 0;
+}
+
+div {
+    display: block;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    text-align: -webkit-match-parent;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+[class^="kit-icon-"], [class*="kit-icon-"] {
+    background-image: url(/resources/img/icon-kit.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+section.searchSection {
+    padding-top: 488px;
+}
+
+section.searchSection .l-search {
+    background-color: rgba(0,0,0,0.6);
+    margin-top: 0;
+}
+
+.l-search {
+    background-color: #fff;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.20);
+    -moz-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.20);
+    box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.20);
+    margin-top: 30px;
+}
+
+section.searchSection .l-search .searchLabel.searchCategory {
+    width: 405px;
+}
+
+section.searchSection .l-search .searchLabel.searchPartition {
+    border-left: 2px solid #8f8184;
+}
+
+.l-mainvisual {
+    background-image: url(/resources/img/main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 580px;
+}
+
+section.searchSection .l-search {
+    background-color: rgba(0,0,0,0.6);
+    margin-top: 0;
+}
+
+label {
+    cursor: default;
+}
+
+.l-wr {
+    display: block;
+    width: 100%;
+}
+
+.l-search .searchLabel > i.searchIcon {
+    vertical-align: top;
+    width: 36px;
+    height: 60px;
+}
+
+section.searchSection .kit-icon-searchFrom {
+    background-position: 0 0;
+}
+
+.l-search .searchLabel > i.searchIcon {
+    vertical-align: top;
+    width: 36px;
+    height: 60px;
+}
+section.searchSection .kit-icon-searchFrom {
+    background-position: 0 0;
+}
+
+.l-search .vueDateBind .searchLabel.current > span {
+    color: #202020;
+}
+section.searchSection .l-search .searchLabel > span {
+    color: #fff;
+}
+.l-search .vueDateBind .searchLabel > span {
+    color: #202020;
+}
+.l-search .searchLabel > span {
+    color: #202020;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    vertical-align: top;
+}
+
+section.searchSection .l-search .vueDateBind .searchLabel.current > span {
+    color: #fff;
+}
+
+.l-search .searchLabel {
+    display: inline-block;
+    height: 60px;
+    padding: 0 20px 0 8px;
+    position: relative;
+}
